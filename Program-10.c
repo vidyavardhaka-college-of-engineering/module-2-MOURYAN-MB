@@ -28,7 +28,7 @@ int main()
         
         if (arr[i] >large  )//missing code
         {
-            large= arr[];//missing code
+            large= arr[i];//missing code
         }
     }
 
