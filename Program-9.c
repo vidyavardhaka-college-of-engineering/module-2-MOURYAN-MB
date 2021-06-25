@@ -22,8 +22,8 @@ int main()
   {
     if (array[c] == search)    /* If required element is found */
     {
-      //printf("%d is present at location %d", search, c+1);
-      printf("%d",c+1);
+      printf("%d is present at location %d", search, c+1);
+      printf("\n%d",c+1);
       break;
     }
   }
