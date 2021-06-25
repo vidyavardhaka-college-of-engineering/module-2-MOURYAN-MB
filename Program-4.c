@@ -5,11 +5,11 @@
 #include <stdio.h>
 int main ()
 {
- int sum = 0,i,n;
+ int a=10,sum=0,i,n;
  
 //Fill the missing code
  printf("Enter n value");
-
+scanf("%d",&n);
  //Fill the missing code
 for(i=1;i<=n;i++)
  {
@@ -19,7 +19,7 @@ for(i=1;i<=n;i++)
   sum = sum + i;
   }
 //Fill the missing code
-printf("%d",sum);
+printf(" %d",sum);
  return 0;
 }
 
