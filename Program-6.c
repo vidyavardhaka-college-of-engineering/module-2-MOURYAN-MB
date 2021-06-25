@@ -2,7 +2,9 @@
 //OUTPUT- Total number of even numbers and odd numbers in the array are 1 and 2
 
 //INSERT THE MISSING CODE 
-
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
 int main()
 {
     int arr[10];
@@ -11,8 +13,8 @@ int main()
     // Reads size and elements in array
     printf("Enter the number of elements and the elements");
     scanf("%d",&num);
-    //printf("Enter %d elements in array: ", num);
-        //printf("Enter the elements");
+    printf("Enter %d elements in array: ", num);
+    printf("Enter the elements");
     for(i=0;i<num;i++)
     {
         scanf("%d",&arr[i]);//missing code
