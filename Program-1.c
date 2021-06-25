@@ -1,4 +1,4 @@
-//program to fid number of digits in the input
+//program to find number of digits in the input
 //INPUT - 452
 //OUTPUT -3
 
@@ -19,7 +19,7 @@ int main()
         /*Increment digit count*/
         count++;
 
-        /*Remove last digit count of 'num'*/
+        /*Remove last digit count of 'num' */
         num /= 10;
     }  while(num != 0);
 
