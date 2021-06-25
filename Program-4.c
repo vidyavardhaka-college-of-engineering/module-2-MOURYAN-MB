@@ -19,7 +19,7 @@ for(i=1;i<=n;i++)
   sum = sum + i;
   }
 //Fill the missing code
-printf(" %d",sum);
+ printf(" %d",sum);
  return 0;
 }
 
