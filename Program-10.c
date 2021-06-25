@@ -12,7 +12,7 @@ int main()
 
     for (i = 0; i < n; i++)
     {
-        //printf("Enter the value of a[%d] : ",i);
+        printf("Enter the value of a[%d] : ",i);
         scanf("%d", &arr[i]);
     }
 
@@ -25,15 +25,14 @@ int main()
         {
             small = arr[i];//missing code
         }
-        
+        else
         if (arr[i] >large  )//missing code
         {
             large= arr[i];//missing code
         }
     }
 
-    printf("The largest element of the array = %d", large);
-    printf("The smallest element of the array = %d",);
+    printf("The largest and smallest elements are %d and %d", large,small);
 
     return 0;
 }
