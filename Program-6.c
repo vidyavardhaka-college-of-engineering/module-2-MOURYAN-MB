@@ -35,8 +35,8 @@ int main()
             oddnum++; // increment oddnumber count
         }
 }
-printf("Total number of even numbers and odd numbers in the array are %d and %d",&evennum,&oddnum  );//missing code
-//printf("Total number of odd numbers in the array : %d\n",   );//missing code
+printf("Total number of even numbers and odd numbers in the array are %d and %d",evennum,oddnum  );//missing code
+printf("Total number of odd numbers in the array : %d\n", oddnum  );//missing code
 
 return(0);    
 }
